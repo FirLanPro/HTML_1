@@ -44,3 +44,11 @@
 		<button type="submit">Отправить</button>
 		<button type="reset">Удалить</button>
 	</form>
+## несколько заголовков
+
+h2*3 +tab = 3 строки с h2
+
+## id идентификатор
+## class
+<h1 class="border">текст</h1>
+<p class="border">текст</p>
