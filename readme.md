@@ -28,3 +28,19 @@
 		<li>второй элемент</li>
 		<li>третий элемент</li>
 	</ol>
+
+## перейти вверх страницы
+
+	<h1 id="top">заголовок страницы</h1>
+	внизу страницы ссылка
+	<a href="#top">вверх</a>
+## формы
+
+	<form action="#">
+		ваше имя <input type="text"><br>
+		пароль <input type="password"><br>
+		почта <input type="email"><br>
+		дата рождения <input type="date">
+		<button type="submit">Отправить</button>
+		<button type="reset">Удалить</button>
+	</form>
