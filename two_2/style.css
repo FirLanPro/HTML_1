@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+}
+
+.menuLink {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.headerOne {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.paragraphOne {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+.headerTwo {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.pictureCatalog {
+  width: 200px;
+}
