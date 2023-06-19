@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wgth@600;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: #020a18;
+    font-family: 'Oprn Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+header {
+    padding: 39px 0;
+    margin-bottom: 160px;
+}
+.navigation {
+
+}
+.naigation_link {
+    
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFF;
+}
+main {
+    margin-bottom: 197px;
+}
+.content_wrapper {
+
+}
+.content_blok {}
+
+.content_subtitle {
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #3a68b8;
+    margin-bottom: 10px;
+    
+}
+.content_maintitle {
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.content_description {
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    opacity:0.7;
+    margin-bottom: 50px;
+}
+.content_btns{
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffff;
+    background: #3a68b8;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+
+}
