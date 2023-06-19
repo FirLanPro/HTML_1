@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #ffffff;
+  font-family: "Varela", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.img2 {
+  padding: 15px 40px;
+}
+
+.container {
+  width: 1146px;
+  margin: auto;
+}
+.color_menu {
+  color: black;
+}
+.color_menu2 {
+  color: orangered;
+}
+
+nav {
+  padding: 0 400px;
+  margin-bottom: 120px;
+}
+
+.naigation_link {
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+main {
+  margin-bottom: 197px;
+}
+
+.content_subtitle {
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: none;
+  margin-bottom: 10px;
+}
+.content_maintitle {
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.content_description {
+  font-size: 20px;
+  line-height: 160%;
+  color: gray;
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+.content_btns_button {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  background: orangered;
+  border-radius: 30px;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+}
+.content_btns_button2 {
+  background: none;
+  color: gray;
+}
