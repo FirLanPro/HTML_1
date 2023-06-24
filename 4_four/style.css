@@ -1,4 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+@font-face {
+  font-family: "Shototam1";
+  src: url(/4_four/SHri/font2/Gilroy-Bold.woff2) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Shototam2";
+  src: url(/4_four/SHri/font2/Gilroy-Medium.woff2) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Shototam3";
+  src: url(/4_four/SHri/font2/Gilroy-Regular.woff2) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Shototam4";
+  src: url(/4_four/SHri/font2/Gilroy-Semibold.woff2) format("woff");
+  font-weight: 400;
+}
 
 * {
   margin: 0;
@@ -10,77 +29,104 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background: #ffffff;
-  font-family: "Varela", sans-serif;
+
   font-style: normal;
   font-weight: 600;
 }
+
 img {
   max-width: 100%;
   display: block;
 }
 
-.img2 {
-  padding: 15px 40px;
-}
-
 .container {
-  width: 1146px;
-  margin: auto;
-}
-.color_menu {
-  color: black;
-}
-.color_menu2 {
-  color: orangered;
+  width: 1170px;
+  margin: 0 auto;
+  
 }
 
-nav {
-  padding: 0 400px;
-  margin-bottom: 120px;
+header {
+  padding: 40px 0;
+  margin-bottom: 50px;
+  font-family: "Shototam2";
+  
 }
 
-.naigation_link {
-  font-size: 16px;
-  line-height: 22px;
-  color: black;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
+
+.navigation__link {
+  color: #000000;
+  font-size: 14px;
+  line-height: 40px;
+  display: flex;
+  gap: 40px;
+  
+  
+}
+.nav_link {
+  color: #f25822;
+}
+
 main {
   margin-bottom: 197px;
 }
 
-.content_subtitle {
-  font-size: 18px;
-  line-height: 160%;
-  text-transform: uppercase;
-  color: none;
-  margin-bottom: 10px;
-}
-.content_maintitle {
-  font-weight: 800;
-  font-size: 55px;
-  line-height: 130%;
-  color: black;
-  margin-bottom: 40px;
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.content_description {
+
+.content__mainTitle {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 70.31px;
+  color: #000000;
+  margin-bottom: 40px;
+  width: 604px;
+  font-family: "Shototam4";
+}
+
+.content__description {
   font-size: 20px;
-  line-height: 160%;
-  color: gray;
+  line-height: 23.44px;
+  color: #888888;
   opacity: 0.7;
   margin-bottom: 50px;
+  width: 558px;
+  font-family: "Shototam2";
 }
-.content_btns_button {
+
+.content__btns {
+  display: flex;
+  gap: 20px;
+}
+
+.content__btns__button {
   font-size: 15px;
-  line-height: 20px;
+  line-height: 17.58px;
   color: #ffffff;
-  background: orangered;
-  border-radius: 30px;
-  padding: 15px 40px;
+  font-family: "Shototam1";
+  background: #f25822;
+
+  border-radius: 50px;
+  padding: 15px 30px;
   border: none;
   cursor: pointer;
 }
-.content_btns_button2 {
-  background: none;
-  color: gray;
+
+.btn-play {
+  color: #aaaa;
+  background: #ffffff;
+}
+
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
