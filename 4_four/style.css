@@ -35,7 +35,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   display: block;
 }
 
@@ -44,12 +44,22 @@ img {
   margin: 0 auto;
   
 }
+.container2 {
+  padding: 30px 0;
+  width: 1170px;
+  height: 491px;
+  margin: 0 auto;
+}
+.container3 {
+  width: 1170px;
+  height: 919px;
+  margin: 0 auto;
+}
 
 header {
   padding: 40px 0;
   margin-bottom: 50px;
   font-family: "Shototam2";
-  
 }
 
 .navigation {
@@ -64,8 +74,6 @@ header {
   line-height: 40px;
   display: flex;
   gap: 40px;
-  
-  
 }
 .nav_link_color2 {
   color: #f25822;
@@ -82,10 +90,8 @@ main {
 .content_wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 197px;
 }
-
-
-
 .content_mainTitle {
   font-weight: 800;
   font-size: 60px;
@@ -93,9 +99,7 @@ main {
   color: #000000;
   margin-bottom: 20px;  
   font-family: "Shototam4";
-  width: 550px
- 
-
+  width: 550px;
 }
 
 .content_description {
@@ -130,12 +134,155 @@ main {
   color: #aaaa;
   background: #ffffff;
 }
-
-
+.btn_vector {
+  display: flex;  
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin: auto;
+}
+.txt_vector {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  
+  
+}
+.img_vector {
+  width: 4px;
+  height: 8px;
+  border: 2px;
+  margin: auto;
+  
+  
+}
 .logos {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+}
+
+article {
+	margin-bottom: 100px;
+}
+.card2 {
+	background: #FFFFFF;
+	
+	display: flex;
+	gap: 30px;
+	flex-direction: column;
+  width: 310px;
+  height: 226px;
+	padding: 30px;
+	color: black;
+  margin: auto;
+}
+.card {
+	background: #FFFFFF;
+	border-radius: 10px;
+	display: flex;
+	gap: 30px;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding: 30px;
+	color: black;
+}
+.cards-list__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+}
+.cards-list {
+	/* margin-bottom:-100px; */
+}
+
+h3 {
+  font-family: "Shototam1";
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0em;
+  font-weight: 300;
+}
+
+h2 {
+ font-family: "Shototam1";
+ font-size: 45px;
+ line-height: 53px;
+ letter-spacing: 0em;
+ font-weight: 350;
+
+}
+
+p {
+  font-family: "Shototam3" ;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 0em;
+  color: #AAAAAA;
+  font-weight: 500;
+}
+
+.button_card {
+  background: #ffffff;
+  font-family: "Shototam1";
+  font-size: 11px;
+  height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 64px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.icon_small {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.heading_indent {
+
+  width: 682px;
+  height: 123px;
+  margin: 30px;
+}
+.heading_indent2 {
+  padding: 30px 0;
+  width: 682px;
+  height: 48px;
+
+
+  
+}
+ .size_container {
+  width: 370px;
+  height: 549px;
+  display: grid;
+  gap: 30px;
+  margin: 15px;
+}
+.border_sh {
+  box-shadow: 0px 1px 50px rgba(0,0,0,0.09), 30px 35px 40px rgba(0,0,0,0.06);
+            
+}
+.border_sh2 {
+  box-shadow: 0 1px 50px rgba(0,0,0,0.06), 0 0px 0px rgba(0,0,0,0.06);
+            
+}
+.p_2 {
+  color: #666666;
+  font-weight: 600;
+  line-height: 24px;
+  
+}
+.p_container {
+  width: 310px;
+  height: 63px;
+  margin: auto;
+
 }
