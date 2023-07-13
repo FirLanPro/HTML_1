@@ -28,7 +28,7 @@
 body {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background: #ffffff;
+  background: #FFFFFF;
 
   font-style: normal;
   
@@ -196,7 +196,8 @@ article {
 	gap: 30px;
 }
 .cards-list {
-	/* margin-bottom:-100px; */
+	/* margin-bottom:-100px; */ 
+  
 }
 
 h3 {
