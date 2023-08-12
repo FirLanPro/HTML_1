@@ -21,6 +21,32 @@ header {
 
 .logo {
     padding: 18px;
+    display: flex;
+    
+}
+
+.logo1 {
+    
+    width: 110.99895477294922px;
+    height: 38px;
+    margin-right: 859px; 
+   
+}
+.vector {
+   margin-left: 41px;
+   
+}
+.logo2 {
+    width: 158.996px;
+    height: 29px;
+
+
+}
+.vector2 {
+display: flex;
+justify-content: space-between;
+color: #FFF;
+font-size: 32px;
 }
 
 body {
