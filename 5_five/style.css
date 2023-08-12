@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Varela&display=swap');
+
+* {
+      
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Lato';
+  }
+
+.conte {
+    width: 1600px;
+}
+
+header {
+    
+    height: 75px;
+    background: #222;
+}
+
+.logo {
+    padding: 18px;
+}
+
+body {
+    
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.block_1 {
+    display: flex;
+    background: #F1E4E6;
+    height: 764px;
+}
+
+.block_1Cont {
+    width: 12px;
+    height: 92px;
+    background: #F16D7F;
+}
+
+.block_1Text {
+   color: #222;
+   width: 377px;
+   height: 93px; 
+   padding: 20px;
+   line-height: 140%;
+}
+
+.block_1Flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.block_1TextSiz {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.block_1TextColor {
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+}
+
+.block_1TextH2 {
+    color: #222;
+    text-decoration-line: none;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.block_1Conteiner {
+    width: 405px;
+    height: 93px;
+    display: flex;
+    margin: 290px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.container2 {
+    height: 1395px;
+}
+
+.container3 {
+    padding: 65px 0;  
+}
+
+.img {
+    width: 360px;
+    height: 260px;
+    position: relative;
+    text-align: center;
+}
+
+.flex {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+}
+
+.block-img {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-img {
+    background: #211616;
+    filter: brightness(40%);
+}
+
+.img2 {
+    position: relative;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.img3 {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.text-img {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.text-img-color {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block_3 {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.blockText5 {
+    display: flex;
+    width: 360px;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    background: #f8f8f8;
+}
+
+.block_3Text {
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.block_3Text1{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #222222;
+    margin-bottom: 6px;
+} 
+
+.block_3Text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color:  #9F9F9F;
+}
+
+.block_3Text3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block_3Text4 {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.button_1 {
+    width: 212px;
+    height: 48px;
+    margin: 48px;
+    border-radius: 0.50px;
+    border-color: #F16D7F;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.button_1Cont {
+    display: flex;
+    justify-content: center;
+}
+
+.color_ {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/* черновик */
+@media (max-width: 848px) {
+	
+	
+    .conte {
+        width: 767px;
+    }
+    .container {
+        width: 767px;
+    }
+    .block_1 {
+        height: 367px;
+    }
+    .block_1Conteiner {
+        margin: 128px 0;
+        width: 311px;
+height: 92px;
+
+
+    }
+    .block_3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    
+    }
+}
+
+
+@media (max-width: 375px) {
+    
+    .conte {
+            width: 343px;
+        }
+	.container {
+		width: 343px;
+	}
+    .block_3 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+    
+    }
+}
