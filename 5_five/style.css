@@ -33,6 +33,7 @@ header {
 .logo2 {
   width: 158.996px;
   height: 29px;
+  cursor: pointer;
 }
 .vector2 {
   display: flex;
